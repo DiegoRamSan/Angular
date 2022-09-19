@@ -1,0 +1,13 @@
+<div>
+    Numer1: <input type="text" [(ngModel)]="numero1" name="numero1"><br>
+    Numer2: <input type="text" [(ngModel)]="numero2" name="numero2"><br>
+    
+    <input type="radio" value="Sumar">Sumar<br>
+    <input type="radio" value="Restar">Restar<br>
+    <input type="radio" value="Multiplicar">Multiplicar<br>
+    <input type="radio" value="Dividir">Dividir<br>
+
+    <button type="button" (click)="Calculo()">Calcular</button>
+
+    <h3>{{total}}</h3>
+</div>
