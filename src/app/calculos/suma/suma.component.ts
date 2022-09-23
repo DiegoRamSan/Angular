@@ -16,15 +16,18 @@ export class SumaComponent {
   Dividir:string;
 
   constructor() { }
-  
-  Calculo(){
-    Sumar(this.total= parseInt(this.numero1) + parseInt(this.numero2))
-
-    Restar(this.total= parseInt(this.numero1) - parseInt(this.numero2))
-
-    Multiplicar(this.total= parseInt(this.numero1) * parseInt(this.numero2))
-
-    Dividir(this.total= parseInt(this.numero1) / parseInt(this.numero2))
+  // Calculos(){
+  //   if (value = this.Sumar){ 
+  //     this.total= parseInt(this.numero1) + parseInt(this.numero2)
+  //   }
+  //   if (value = this.Restar){
+  //   this.total= parseInt(this.numero1) - parseInt(this.numero2)
+  //   }
+  //   if (value = this.Multiplicar){
+  //   this.total= parseInt(this.numero1) * parseInt(this.numero2)
+  //   }
+  //   if (value = this.Dividir){
+  //   this.total= parseInt(this.numero1) / parseInt(this.numero2)
+  //   }
+  // }
 }
-}
-
