@@ -1,3 +1,14 @@
 body{
     background-color: blue;
+    background-image: url(https://th.bing.com/th/id/OIP.d1zNFjIeO7-dMTxTgCecPwHaFV?w=241&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+hr{
+    color: white;
+}
+div{
+    width: 500px;
 }

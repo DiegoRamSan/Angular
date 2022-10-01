@@ -1,27 +1,33 @@
-<h1>CINEPOLIS</h1>
-<br>
-<hr>
-<h2>Entradas</h2>
+<body href="cinepolis.component.css">
+
 <div>
-    Nombre  <input type="text">
+    <hr>
+    <h2>ENTRADAS</h2>
+    Nombre: <input type="text" [(ngModel)]="nombre" name="nombre"><br>
+    Cantidad Compradores: <input type="text" [(ngModel)]="comprador" name="comprador"><br>
+    Tarjeta Cinepolis: 
+    <input type="radio" value="si" name="tarjeta" [(ngModel)]="tarjSi">Si
+    <input type="radio" value="no" name="tarjeta" [(ngModel)]="tarjNo">No<br>
+
+    Cantidad Boletos: <input type="text" [(ngModel)]="boletos" name="boletos"><br>
+
+    <button type="button" (click)="procesar()">Procesar</button>
+
+    <h1>Comprador Principal: {{nombre}}</h1>
+    <h2>Boletos Comprados: {{boletos}}</h2>
+    <h2>Total: {{total}}</h2>
+    <h2>{{error}}</h2>
+    <hr>
+    <br>
+    <hr>
+    <h2>SALIDAS</h2>
+    <input type="text" name="" id="">Valor a pagar
+    <hr>
+    <br>
+    <hr>
+    <h2>ACCIONES</h2>
+        <button>Procesar</button>
+        <button>Salir</button>
+    <hr>
 </div>
-<div>
-    Cantidad compradores  <input type="text">
-</div>
-<div>
-    Tarjeta Cineco <input type="radio">si <input type="radio">no<br>
-</div>
-<div>
-    Cantidad de boletos  <input type="text">
-</div>
-<hr>
-<h2>Salidas</h2>
-<div>
-    Valor a pagar <input type="text">
-</div>
-<hr>
-<h2>Acciones</h2>
-<div>
-    <button>Procesar</button>
-    <button>Salir</button>
-</div>
+</body>
