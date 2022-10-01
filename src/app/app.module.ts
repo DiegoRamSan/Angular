@@ -11,7 +11,9 @@ import { ProductoFilterPipe } from './product/producto-filter.pipe';
 import { MenuComponent } from './menu/menu.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon'
-import {MatButtonModule} from '@angular/material/button'
+import {MatButtonModule} from '@angular/material/button';
+import { TablaComponent } from './calculos/tabla/tabla.component';
+import { CinepolisComponent } from './calculos/cinepolis/cinepolis.component'
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {MatButtonModule} from '@angular/material/button'
     RestaComponent,
     ProductListComponent,
     ProductoFilterPipe,
-    MenuComponent
+    MenuComponent,
+    TablaComponent,
+    CinepolisComponent
   ],
   imports: [
     BrowserModule,
